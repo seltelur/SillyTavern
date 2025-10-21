@@ -1,0 +1,5 @@
+chmod +x UpdateForkAndStart.sh
+./UpdateForkAndStart.sh                  # defaults to release, stashes, then starts
+./UpdateForkAndStart.sh staging          # pick a branch
+./UpdateForkAndStart.sh release --no-stash
+./UpdateForkAndStart.sh release --no-start
